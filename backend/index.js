@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database connection with MongoDB
-mongoose.connect("mongodb+srv://pradeep:pradeep1234@cluster0.rrumsph.mongodb.net/e_commerce");
+mongoose.connect("mongodb+srv://<yourmongodbid:pass>@cluster0.rrumsph.mongodb.net/e_commerce");
 
 // API creation
 app.get("/", (req, res) => {
